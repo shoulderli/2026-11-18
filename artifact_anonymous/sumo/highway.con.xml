@@ -1,0 +1,7 @@
+<connections>
+  <connection from="main0" to="main1" fromLane="0" toLane="0"/>
+  <connection from="main0" to="main1" fromLane="1" toLane="1"/>
+  <connection from="main1" to="main2" fromLane="0" toLane="0"/>
+  <connection from="main1" to="main2" fromLane="1" toLane="0"/>
+  <connection from="ramp" to="main2" fromLane="0" toLane="0"/>
+</connections>

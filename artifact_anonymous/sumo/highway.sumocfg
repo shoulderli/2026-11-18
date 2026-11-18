@@ -1,0 +1,7 @@
+<configuration>
+  <input><net-file value="highway.net.xml"/><route-files value="route.rou.xml"/></input>
+  <time><begin value="0"/><end value="1200.0"/><step-length value="0.2"/></time>
+  <processing><time-to-teleport value="-1"/></processing>
+  <random_number><seed value="0"/></random_number>
+  <report><no-step-log value="true"/><no-warnings value="true"/></report>
+</configuration>
