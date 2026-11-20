@@ -17,6 +17,8 @@ Estimate". It is anonymized for double-blind review.
   `phase.jsonl`, `nmin_big_*.jsonl`, `qdet.jsonl`, `spacing.jsonl`,
   `sumo_v2.jsonl`, and the IDM shards.
 - `outputs/series.json` — the 15 s window used in Figure 1(c).
+- `outputs/fig3_snr.png` — Figure 4, regenerated with the two-sided
+  99th-percentile calibration (`z = 2.576`) and `p_eff = 0.98 p`.
 - `sumo/` — SUMO network, route, and configuration files for the
   simulator layer.
 
@@ -55,3 +57,11 @@ size; the result files needed to check the paper's numbers are included.
 
 The `outputs/` directory already contains the result files used in the
 paper, so the tables can be checked without rerunning the simulations.
+
+## Revision note
+
+This directory is the canonical artifact for the submission. The 2026-11-19
+revision regenerated `fig3_snr.py` and `outputs/fig3_snr.png` with the
+two-sided 99th-percentile calibration (`z = 2.576`) and `p_eff = 0.98 p`;
+all other files are unchanged. When mirroring the artifact, make the
+repository root match this directory.
